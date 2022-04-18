@@ -1,0 +1,38 @@
+﻿@charset "utf-8";
+
+* {box-sizing: border-box; text-decoration: none;}
+        ul,li,ol {list-style:none; margin:0; padding:0; }
+        @import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Nanum+Myeongjo:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=IBM+Plex+Sans+KR:wght@300&family=Nanum+Myeongjo:wght@700&display=swap');
+
+
+    /*헤더*/    
+        header {width: 1260px; height: 103px; margin:0 auto;}
+        #logo {width:186px; height:74px; background-color: blueviolet; float: left; margin: 16px 0 0 30px; }
+        #logo img {width: 100%; height: 100%;}
+
+        #login {width:360px; height:71px; float: right; margin: 18px 10px 0 0px;}
+        #login > .icon {width: 50px; height: 40px; float:right; display:inline-block; margin: 15px 0 0 30px; }
+        #login > .icon > a > img {width: 100%; height: 100%; }
+        
+
+        .nav1 {width:450px; height:71px; float: left; margin: 18px 0 0 10px;}
+        .nav1 > ul {font-size: 25px; font-family: 'IBM Plex Sans KR', sans-serif;}
+        .nav1 > ul > li > a {float:left; margin:17px 0 0 33px; color:#333; font-weight: 700;}
+        .nav1 > ul > li > a:hover {color:orangered; }
+
+        .nav2 {width:1260px; height:47px; margin: 0 auto ;}
+        .nav2 > ul {font-size: 16px; margin: 0 0 0 40px; font-family: 'IBM Plex Sans KR', sans-serif;}
+        .nav2 > ul > li > a {float:left; margin: 8px 40px 8px 0px; color:#333; font-weight: 700;}
+        .nav2 > ul > li > a:hover {color:orangered; }
+
+
+/*하단*/
+
+        footer {width: 100%; height: 180px; background-color: #eee; border-top:#333;}
+        footer .box {width:1020px; height: 160px; margin: 0 auto;}
+        footer .box ul {font-size: 11px; color: #666; width: 990px; height: 33px; padding: 30px 0 0 30px;}
+        footer .box ul li {float: left; margin: 0 0 0 10px;}
+        footer .box p {font-size: 11px; width: 990px; height: 70px; padding: 30px 0 0 10px; float: left; color:#333}
+        footer > p {font-size: 11px; text-align: center; width: 100%; height: 40px; padding: 10px; margin: 0 auto;  color:#fff; background-color: #333;}
+       
